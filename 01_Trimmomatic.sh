@@ -1,0 +1,1 @@
+java -jar trimmomatic-0.39.jar PE -threads 52 00rawdata/Sample_NAME_R1.fq.gz 00rawdata/Sample_NAME_R2.fq.gz 02trimmomatic/Sample_NAME_clean_R1.fq.gz 02trimmomatic/Sample_NAME_unpaired_R1.fq.gz 02trimmomatic/Sample_NAME_clean_R2.fq.gz 02trimmomatic/Sample_NAME_unpaired_R2.fq.gz ILLUMINACLIP:TruSeq2-PE.fa:2:30:10 SLIDINGWINDOW:15:30 MINLEN:110 TRAILING:30 AVGQUAL:30

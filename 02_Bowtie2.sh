@@ -1,0 +1,3 @@
+cat GCF_001704415.1.fa  GCA_004794615.1.fa GCF_000767855.1.fa GCF_000803125.2.fa GCF_002263795.1.fa GCA_007570765.1.fa GCF_910594005.1.fa GCA_019903745.1.fa GCA_000751575.1.fa GCF_016772045.1.fa GCA_020226075.1.fa GCA_005887515.2.fa GCF_000004515.6.fa GCF_902167145.1.fa GCF_003473485.1.fa > Host_and_Food_Genome.fa
+bowtie2-build Host_and_Food_Genome.fa Host_and_Food_Genome_index
+bowtie2 -x Host_and_Food_Genome_index -p 52 --very-sensitive -1 02trimmomatic/Sample_NAME_clean_R1.fq.gz -2 02trimmomatic/Sample_NAME_clean_R2.fq.gz --un-conc-gz 03bowtie2/Sample_NAME_meta_clean_R%.fq.gz --al-conc-gz 03bowtie2/Sample_NAME_genome_clean_R%.fq.gz --no-unal |samtools sort -o 03bowtie2/Sample_NAME_genome_clean.sort.bam

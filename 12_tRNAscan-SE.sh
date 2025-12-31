@@ -1,0 +1,1 @@
+tRNAscan-SE -qQ -Y -o MAG_tRNAscan/MAG_bin_XX.fa.final_results -m MAG_tRNAscan/MAG_bin_XX.fa.statistics_summary -f MAG_tRNAscan/MAG_bin_XX.fa.tRNA_secondary_structures -l MAG_tRNAscan/MAG_bin_XX.fa.log -c PATH_TO/tRNAscan-SE.conf -s MAG_tRNAscan/MAG_bin_XX.fa.isotype_specific_models 06drep/drep_out/dereplicated_genomes/MAG_bin_XX.fa
