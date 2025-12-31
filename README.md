@@ -1,2 +1,12 @@
 # CRMC
 A comprehensive ruminant microbial catalog (CRMC) reveals convergent selection for key vitamin-synthesizing pathways and genes across ruminants and human
+
+## Background: 
+The ruminant gastrointestinal tract serves as a natural microbial reservoir in which vitamin-synthesizing microbes play key integrated roles in digestion, nutrient absorption, and metabolic balance; however, studies systematically elucidating their functional characteristics and ecological roles remain limited due to the lack of a large-scale reference genome catalog for ruminant gastrointestinal vitamin-synthesizing microbes. Here, based on 2,325 metagenomic samples from 8 ruminant hosts, we comprehensively reconstructed and analyzed the ruminant gastrointestinal tract microbiome and the distribution patterns of vitamin-synthesizing microbes.
+## Results: 
+We reconstructed a unified ruminant gastrointestinal microbiome catalog (CRMC) with 39,696 MAGs, achieving the highest mapping rate (~83.45%) among 2,325 metagenomic datasets, surpassing GTDB, RGMGC, and other catalogs. Across the 8 ruminant hosts, we identified a total of 17,349 vitamin-synthesizing microbes spanning 9 biosynthetic pathways (thiamine, riboflavin, niacin, pantothenate, pyridoxine, biotin, folate, cobalamin, and menaquinone). These microbes exhibited unified pathway selection patterns consistent with those in the human gut microbiome. Furthermore, within the major vitamin-synthesizing pathways commonly selected across ruminants, vitamin-synthesizing microbes displayed concentrated co-selection of specific functional gene nodes, revealing that despite taxonomic differences among gastrointestinal vitamin-synthesizing communities, they share highly convergent pathway preferences and common node-level selection patterns.
+## Conclusions: 
+Together, by reconstructing the ruminant gastrointestinal tract microbiome reference genome catalog (CRMC), we elucidated the core microbial taxa and their functional features across ruminants, as well as the pathway preferences and distribution patterns of vitamin-synthesizing microbes. These findings provide an effective reference for advancing ruminant gastrointestinal tract microbiome research, offering gene co-selection insights for microbial synthetic biology design, and guiding microbiome-based interventions in ruminant systems.
+
+## Keywords: 
+Ruminant, gastrointestinal tract, microbiome, metagenome-assembled genomes, vitamin-synthesizing, cross-species comparison
