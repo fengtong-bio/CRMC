@@ -10,3 +10,41 @@ Together, by reconstructing the ruminant gastrointestinal tract microbiome refer
 
 ## Keywords: 
 Ruminant, gastrointestinal tract, microbiome, metagenome-assembled genomes, vitamin-synthesizing, cross-species comparison
+
+## 🧬 Pipeline and Data Availability
+
+This repository contains the scripts used for the analysis of ruminant metagenomic data. The workflow is divided into specific steps (01-15) covering quality control, assembly, annotation, and quantification.
+
+### 1. Data Source
+The raw data utilized in this study originates from **21 NCBI projects**, comprising a total of **2,325 ruminant metagenomic samples**. 
+> **Note:** Detailed sample and project information can be found in **Table S1** of the supplementary file: `Feng_etal_Ruminant_CRMC_vitamin_Supplement_Table`.
+
+### 2. Workflow Description
+The analysis pipeline consists of the following modules:
+
+#### A. Pre-processing and Assembly (Steps 01-05)
+Each metagenomic sequencing sample was processed **independently** through the following steps:
+* **Step 01:** Quality Control (QC) of raw reads.
+* **Step 02:** Host genome removal to ensure microbial purity.
+* **Step 03:** Metagenomic assembly.
+* **Step 04:** Binning.
+* **Step 05:** Quality control of the obtained bins.
+
+#### B. Construction of Non-redundant Catalog (Step 06)
+* **Step 06:** The high-quality bins identified in the previous steps were dereplicated to construct the Combined Ruminant Microbial Collection (CRMC).
+
+#### C. Functional and Taxonomic Annotation (Steps 07-12)
+The CRMC, along with **8 ruminant gastrointestinal microbial reference genome catalogs**, were annotated using the following pipeline:
+* **Step 07:** Taxonomic annotation.
+* **Step 08:** Gene prediction and annotation.
+* **Step 09:** COG (Clusters of Orthologous Groups) functional annotation.
+* **Step 10:** Enzyme function annotation.
+* **Step 11 & 12:** rRNA and tRNA annotation, respectively.
+
+#### D. Comparative Analysis and Quantification (Steps 13-15)
+* **Step 13:** Average Nucleotide Identity (ANI) analysis was performed to compare similarities between Metagenome-Assembled Genomes (MAGs).
+* **Step 14:** Clean reads from different datasets were mapped to the reference genomes to calculate the **mapping rate**.
+* **Step 15:** Calculation of relative abundances.
+
+### 3. Output Data
+All intermediate and final data generated for the analysis in this study are compiled and available in the supplementary file: **`Feng_etal_Ruminant_CRMC_vitamin_Supplement_Table`**.
