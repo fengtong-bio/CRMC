@@ -15,11 +15,7 @@ Ruminant, gastrointestinal tract, microbiome, metagenome-assembled genomes, vita
 
 This repository contains the scripts used for the analysis of ruminant metagenomic data. The workflow is divided into specific steps (01-15) covering quality control, assembly, annotation, and quantification.
 
-### 1. Data Source
-The raw data utilized in this study originates from **21 NCBI projects**, comprising a total of **2,325 ruminant metagenomic samples**. 
-> **Note:** Detailed sample and project information can be found in **Table S1** of the supplementary file: `Feng_etal_Ruminant_CRMC_vitamin_Supplement_Table`.
-
-### 2. Workflow Description
+### Workflow Description
 The analysis pipeline consists of the following modules:
 
 #### A. Pre-processing and Assembly (Steps 01-05)
@@ -46,5 +42,3 @@ The CRMC, along with **8 ruminant gastrointestinal microbial reference genome ca
 * **Step 14:** Clean reads from different datasets were mapped to the reference genomes to calculate the **mapping rate**.
 * **Step 15:** Calculation of relative abundances.
 
-### 3. Output Data
-All intermediate and final data generated for the analysis in this study are compiled and available in the supplementary file: **`Feng_etal_Ruminant_CRMC_vitamin_Supplement_Table`**.
